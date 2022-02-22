@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    overflow: hidden;
+    font-family: 'Festive', cursive;
+   
+  background-size: cover;
+  height: auto;
+  font-family: 'Indie Flower', cursive;
+}
+@media screen and (max-width:767px){
+
+  .mobilehidden{
+    display: none;
+}
+
+  body {overflow:scroll;}
+}
+@media only screen and (min-width: 960px) {
+  .hidedesktop{
+    display: none;
+  }
+  }
+
+  .h6contact{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  }
+
+
+.container{
+  padding-left: 10%;
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 150%;
+  margin-bottom: 20px;
+  color: #486255;
+}
+
+.input,
+.msg .area{
+  resize: none;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: rgb(82, 72, 72);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn1{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: rgb(196, 186, 186);
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+   font-family: 'Indie Flower', cursive;
+}
+
+.image {
+  position: relative;
+  width: 80%;
+  margin-top: 35%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+   font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
