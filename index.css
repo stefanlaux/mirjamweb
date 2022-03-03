@@ -159,6 +159,27 @@ p{
 .image__overlay:hover > * {
   transform: translateY(0);
 }
+.image__overla {
+  position: absolute;
+  
+  top: 0;
+  
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 
 .image__title {
   font-size: 2em;
