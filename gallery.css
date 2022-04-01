@@ -4,6 +4,22 @@
   font-family: 'Indie Flower', cursive;
   overflow-x: hidden;
 }
+a{
+  font-size:120%;
+}
+@media screen and (max-width:767px){
+
+  .mobilehidden{
+    display: none;
+}
+
+  body {overflow:scroll;}
+}
+@media only screen and (min-width: 960px) {
+  .hidedesktop{
+    display: none;
+  }
+  }
 
 
 .row {
@@ -12,7 +28,7 @@
   padding: 3px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 25%;
   max-width: 25%;
