@@ -224,11 +224,6 @@ p{
   transition: .25s ease-in-out;
 }
 
-button{
-  border-radius: 0;
-  outline: none;
-  box-shadow: none;
-}
 
 .middle-bar {
   margin-top: 0px;
