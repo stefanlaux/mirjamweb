@@ -4,7 +4,6 @@ body{
   background-size: cover;
   height: auto;
   font-family: 'Poppins', sans-serif;
-  outline: none;
 }
 @media screen and (max-width:767px){
 
@@ -200,10 +199,7 @@ p{
 }
 
 
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
+.navbar-toggler .navbar-toggler:focus .navbar-toggler:active .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
   border: 0;
@@ -212,6 +208,7 @@ p{
 .navbar-toggler span {
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 .toggler-icon {
@@ -227,6 +224,11 @@ p{
   transition: .25s ease-in-out;
 }
 
+button{
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
 
 .middle-bar {
   margin-top: 0px;
