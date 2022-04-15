@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
     overflow: hidden;
-    font-family: 'Festive', cursive;
-   
   background-size: cover;
   height: auto;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 @media screen and (max-width:767px){
 
@@ -24,8 +21,8 @@ body{
 
   .h6contact{
     text-align: center;
-    font-family: 'Indie Flower', cursive;
-  }
+    font-family: 'Poppins', sans-serif; 
+   }
 
 
 
@@ -42,8 +39,8 @@ body{
 
 
 p{
-  font-family: 'Indie Flower', cursive;
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
+    text-align: center;
   letter-spacing: 1px;  
   font-size: 150%;
   margin-bottom: 20px;
@@ -110,7 +107,7 @@ p{
 }
 
 ::-webkit-input-placeholder{
-   font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .image {
@@ -183,8 +180,8 @@ p{
 
 .image__title {
   font-size: 2em;
-   font-family: 'Indie Flower', cursive;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .image__description {
