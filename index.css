@@ -270,3 +270,43 @@ p{
 .navbar-toggler.collapsed .toggler-icon {
   background: #404040;
 }
+
+
+.intro{
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  transition: 2s;
+}
+
+.logo-header{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.logo{
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo.active{
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.logo.fade{
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
