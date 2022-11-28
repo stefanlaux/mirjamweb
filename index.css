@@ -5,7 +5,7 @@ body{
   height: auto;
   font-family: 'Poppins', sans-serif;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width: 650px){
 
   .mobilehidden{
     display: none;
@@ -13,7 +13,7 @@ body{
 
   body {overflow:scroll;}
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 650px) {
   .hidedesktop{
     display: none;
   }
@@ -313,4 +313,47 @@ p{
   bottom: 150px;
   opacity: 0;
   transition: ease-in-out 0.5s;
+}
+
+.wrapIndex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.carouselDiv{
+  max-width: 75vw;
+  margin: 20px;
+}
+
+.navDiv{
+  max-width: 23vw;
+  margin: 20px;
+  
+
+}
+
+.aboutWrap{
+  display: flex;
+  justify-content: center;
+  top: 4%!important;
+  left: 5%;
+  position: absolute;
+  align-items: center;
+}
+
+.aboutText{
+  max-width: 30vw;
+  margin: 20px;
+}
+
+.aboutImg{
+ max-width: 30vw;
+  margin: 20px;
+}
+
+.titleText{
+  text-align: center;
 }
