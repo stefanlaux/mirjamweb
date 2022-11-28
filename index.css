@@ -84,7 +84,7 @@ p{
   text-transform: uppercase;
   cursor: pointer;
   box-shadow: none;
-  border: 1px solid black!important;
+  outline: 1px solid black!important;
 }
 
 .btn:hover{
