@@ -28,12 +28,11 @@ body{
 
 .container{
   padding-left: 10%;
-  max-width: 800px;
+  max-width: 700px;
   height: 600px;
   background: #fff;
   margin: 50px auto;
-  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
-  box-sizing: border-box;
+
   padding: 40px;
 }
 
@@ -76,18 +75,23 @@ p{
 }
 
 .btn{
-  width: 100px;
-  height: 50px;
-  line-height: 50px;
+
   text-align: left;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 0!important;
+  padding: 7px 15px!important;
   color: rgb(82, 72, 72);
   text-transform: uppercase;
   cursor: pointer;
   box-shadow: none;
-  outline: none;
+  outline: 1px solid;
 }
+
+.btn:hover{
+  color: #3c8bfd!important;
+  transition: color .5s;
+}
+
 .btn1{
   width: 200px;
   height: 50px;
