@@ -5,7 +5,7 @@ body{
   height: auto;
   font-family: 'Poppins', sans-serif;
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 700px){
 
   .mobilehidden{
     display: none;
@@ -13,7 +13,7 @@ body{
 
   body {overflow:scroll;}
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
   .hidedesktop{
     display: none;
   }
@@ -317,7 +317,7 @@ p{
 
 .wrapIndex{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 100vh;
   width: 100vw;
@@ -337,23 +337,50 @@ p{
 
 .aboutWrap{
   display: flex;
-  justify-content: center;
-  top: 4%!important;
-  left: 5%;
-  position: absolute;
+  justify-content: left;
   align-items: center;
 }
 
 .aboutText{
   max-width: 30vw;
   margin: 20px;
+  font-size: 89%;
 }
 
 .aboutImg{
  max-width: 30vw;
-  margin: 20px;
+  margin: 30px;
 }
 
 .titleText{
   text-align: center;
+}
+.aboutWrapPic{
+  top: 50%;
+  position: fixed;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioWrap{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.picWrap{
+  position: fixed;
+  top: 40%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
 }
